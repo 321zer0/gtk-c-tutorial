@@ -5,7 +5,7 @@ static void app_activate(GtkApplication* app, gpointer user_data)
     GtkWidget *window = gtk_application_window_new(app);
 
     gtk_window_set_title(GTK_WINDOW(window), "Test Window");
-    gtk_window_set_default_size(GTK_WINDOW(app), 500, 500);    
+    gtk_window_set_default_size(GTK_WINDOW(window), 500, 500);    
     gtk_widget_show_all(window);
 }
 
